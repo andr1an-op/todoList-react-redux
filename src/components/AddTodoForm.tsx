@@ -21,7 +21,7 @@ const AddTodoForm = () => {
   return (
     <div className="bg-white/10 p-4 rounded-2xl shadow-lg backdrop-blur-md space-y-3">
       <div className="flex items-center gap-3">
-        <input
+        <input 
           type="text"
           placeholder="What's your task?"
           value={text}
